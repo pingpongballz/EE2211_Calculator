@@ -1,5 +1,7 @@
 # EE2211_Calculator
-A python script containing useful functions for the module EE2211 at NUS
+A python script containing useful functions for the module EE2211 at NUS.
+
+Example jupyter notebook file is given to demonstrate how to use the functions
 
 ## How to use
 Run the script and use the functions 
