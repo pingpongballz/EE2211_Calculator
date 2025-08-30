@@ -35,13 +35,6 @@ output: signum-ed np vector x_sig
 
 ```
 ```
-sign(x):
-
-input: np vector x
-output: signum-ed np vector x_sig
-
-```
-```
 poly_expand(X,deg):
 
 Input: np array x, int degree 
