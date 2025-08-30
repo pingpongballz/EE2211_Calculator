@@ -135,7 +135,7 @@ def impurity(splits, tpe = 'g'):
         
     return total
 
-def kmeans_train(X,k,c = None):
+def kmeans_train(X,k,c = 'random'):
     '''
     Input X: training data
     Input k: number of nodes
@@ -161,3 +161,4 @@ def predict_kmeans(X,c):
         closest_c = np.argmin(np.sqrt(np.sum((x-c)**2, axis=1)))
         clusters[closest_c].append(x)
     return clusters   
+
